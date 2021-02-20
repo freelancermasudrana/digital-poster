@@ -48,10 +48,11 @@ th.des-bg {
 th.table-bg {
     background-color: #3e3e3e;;
     color: white;
+    border-radius: 0px 20px 0px 0px;
 }
 span.tabelNumberRadius {
     background-color: #A5AF3F;
-    padding: 9px 15px;
+    padding: 7px 15px;
     border-radius: 50%;
     color:white
 }
@@ -60,11 +61,10 @@ span.tabelNumberRadius {
     text-align: center;
 
 }
-.tborder{
-background-color: thistle;
-border-radius: 50px;
+thead:first-child th:first-child{
+  border-radius: 20px 0px 0px 0px;
 }
-/* ==========================time count down */
+/* ==========================time count down css ========================*/
 .flipper {
     color: #333;
     display: block;
